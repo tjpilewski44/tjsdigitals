@@ -3,10 +3,6 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main
-      - "ios 2"
-      - ios-2
-      - ios-3
       - ios-4
   workflow_dispatch:
 
