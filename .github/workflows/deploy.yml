@@ -42,6 +42,10 @@ jobs:
               cp -v "$f" dist/
             fi
           done
+          # Make preview.html the default homepage served as index.html
+          if [ -f "preview.html" ]; then
+            cp -v preview.html dist/index.html
+          fi
           # Copy asset folders if they exist
           for d in Memes assets; do
             if [ -d "$d" ]; then
