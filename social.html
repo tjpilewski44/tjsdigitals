@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Social Media Content — TJ Pilewski</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      :root { color-scheme: dark; }
+      body { background: #0a0a0a; color: #e5e5e5; }
+    </style>
+  </head>
+  <body class="min-h-screen bg-neutral-950 text-neutral-100">
+    <!-- Top bar -->
+    <header class="sticky top-0 z-40 backdrop-blur bg-neutral-950/70 border-b border-white/5">
+      <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+        <a href="preview.html" class="text-sm inline-flex items-center gap-2 opacity-90 hover:opacity-100">
+          <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+          Back
+        </a>
+        <span class="font-semibold tracking-tight">Social Media Content</span>
+        <span class="text-xs opacity-0">spacer</span>
+      </div>
+    </header>
+
+    <!-- Hero / Intro -->
+    <section class="max-w-6xl mx-auto px-4 pt-10 pb-6">
+      <h1 class="text-3xl md:text-5xl font-extrabold tracking-tight">Social Media Content</h1>
+      <p class="mt-4 max-w-2xl text-neutral-300">Content I’ve produced from scratch—strategy, creative, and execution—to grow accounts and drive engagement.</p>
+    </section>
+
+    <!-- Go To Section -->
+    <nav class="max-w-6xl mx-auto px-4">
+      <div class="flex flex-wrap gap-2 text-sm">
+        <a href="#memes" class="px-4 py-2 rounded-full bg-neutral-900 hover:bg-neutral-800 border border-white/10">Memes</a>
+        <a href="#news" class="px-4 py-2 rounded-full bg-neutral-900 hover:bg-neutral-800 border border-white/10">News</a>
+        <a href="#engagement" class="px-4 py-2 rounded-full bg-neutral-900 hover:bg-neutral-800 border border-white/10">Engagement</a>
+        <a href="#sports" class="px-4 py-2 rounded-full bg-neutral-900 hover:bg-neutral-800 border border-white/10">Sports</a>
+      </div>
+    </nav>
+
+    <!-- Memes -->
+    <section id="memes" class="max-w-6xl mx-auto px-4 py-10">
+      <div class="flex items-end justify-between mb-6">
+        <h2 class="text-2xl md:text-3xl font-bold tracking-tight">Memes</h2>
+        <span class="text-sm text-neutral-400">Fast, topical, shareable</span>
+      </div>
+      <h3 class="text-lg font-semibold mb-3">Best Of</h3>
+      <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3 mb-8" id="memes-best-grid">
+        <!-- Best Of images inserted by script -->
+      </div>
+
+      <h3 class="text-lg font-semibold mb-3">Archive</h3>
+      <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3" id="memes-archive-grid">
+        <!-- Archive images inserted by script -->
+      </div>
+
+      <p class="mt-3 text-xs text-neutral-400">Place files in <code>Memes/BEST OF MEMES/</code> and <code>Memes/MEME ARCHIVE/</code>. Optionally create <code>index.json</code> in each folder listing filenames. Otherwise use the manual arrays at the bottom of this page.</p>
+    </section>
+
+    <!-- News Headlines -->
+    <section id="news" class="max-w-6xl mx-auto px-4 py-10">
+      <div class="flex items-end justify-between mb-6">
+        <h2 class="text-2xl md:text-3xl font-bold tracking-tight">News Headlines</h2>
+        <span class="text-sm text-neutral-400">Speed-to-post with clean typography</span>
+      </div>
+      <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3" id="news-grid"></div>
+    </section>
+
+    <!-- Engagement Posts -->
+    <section id="engagement" class="max-w-6xl mx-auto px-4 py-10">
+      <div class="flex items-end justify-between mb-6">
+        <h2 class="text-2xl md:text-3xl font-bold tracking-tight">Posts Made to Drive Engagement</h2>
+        <span class="text-sm text-neutral-400">Hooks, questions, and CTAs</span>
+      </div>
+      <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3" id="engagement-grid"></div>
+    </section>
+
+    <!-- Sports Graphics -->
+    <section id="sports" class="max-w-6xl mx-auto px-4 py-10">
+      <div class="flex items-end justify-between mb-6">
+        <h2 class="text-2xl md:text-3xl font-bold tracking-tight">Sports Related Graphics</h2>
+        <span class="text-sm text-neutral-400">Scores, lineups, trades, schedules</span>
+      </div>
+      <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3" id="sports-grid"></div>
+    </section>
+
+    <!-- Contact CTA -->
+    <section class="max-w-6xl mx-auto px-4 pb-20">
+      <div class="rounded-3xl border border-white/10 bg-neutral-900/60 p-8 md:p-10 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+        <div>
+          <h2 class="text-xl md:text-2xl font-bold tracking-tight">Have footage? I’ll turn it into scroll-stopping posts.</h2>
+          <p class="mt-2 text-neutral-300">From hook to headline to punchy edit—let’s make content that performs where it matters.</p>
+        </div>
+        <a href="#contact" class="inline-flex items-center gap-2 h-12 px-6 py-3 rounded-2xl text-base font-medium bg-white text-neutral-900 hover:bg-neutral-200">
+          Get in touch
+          <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7"/><path d="M7 7h10v10"/></svg>
+        </a>
+      </div>
+    </section>
+
+  <!-- Lightbox overlay -->
+  <div id="lightbox" class="fixed inset-0 z-50 hidden bg-black/90">
+    <button id="lb-close" class="absolute top-4 right-4 p-2 rounded-lg bg-white/10 hover:bg-white/20 text-white">✕</button>
+    <button id="lb-prev" class="absolute left-4 top-1/2 -translate-y-1/2 p-3 rounded-lg bg-white/10 hover:bg-white/20 text-white">‹</button>
+    <button id="lb-next" class="absolute right-4 top-1/2 -translate-y-1/2 p-3 rounded-lg bg-white/10 hover:bg-white/20 text-white">›</button>
+    <div class="w-full h-full flex items-center justify-center p-6">
+      <img id="lb-img" src="" alt="" class="max-h-full max-w-full object-contain" />
+    </div>
+  </div>
+
+  </body>
+  <script src="assets/memes_data.js"></script>
+  <script src="assets/social_data.js"></script>
+  <script>
+    function renderGrid(gridId, basePath, files) {
+      const grid = document.getElementById(gridId);
+      if (!grid || !Array.isArray(files)) return;
+      const frag = document.createDocumentFragment();
+      files.forEach((name) => {
+        const href = `${basePath}${name}`;
+        const a = document.createElement('a');
+        a.href = href;
+        a.target = '_blank';
+        a.className = 'block overflow-hidden rounded-xl border border-white/10 bg-neutral-900/60 hover:border-white/30';
+        const img = document.createElement('img');
+        img.src = href;
+        img.alt = name;
+        img.loading = 'lazy';
+        img.className = 'w-full h-40 object-cover';
+        a.appendChild(img);
+        frag.appendChild(a);
+      });
+      grid.appendChild(frag);
+    }
+
+    function renderList(gridId, files) {
+      const grid = document.getElementById(gridId);
+      if (!grid || !Array.isArray(files)) return;
+      const frag = document.createDocumentFragment();
+      files.forEach((path) => {
+        const a = document.createElement('a');
+        a.href = path;
+        a.className = 'block overflow-hidden rounded-xl border border-white/10 bg-neutral-900/60 hover:border-white/30';
+        const img = document.createElement('img');
+        img.src = path;
+        img.alt = path.split('/').pop() || '';
+        img.loading = 'lazy';
+        img.className = 'w-full h-40 object-cover';
+        a.appendChild(img);
+        frag.appendChild(a);
+      });
+      grid.appendChild(frag);
+    }
+
+    // Prefer auto-generated global MEMES lists that include ALL subfolders
+    const bestAuto = (window.MEMES && Array.isArray(window.MEMES.best)) ? window.MEMES.best : [];
+    const archiveAuto = (window.MEMES && Array.isArray(window.MEMES.archive)) ? window.MEMES.archive : [];
+
+    if (bestAuto.length || archiveAuto.length) {
+      renderList('memes-best-grid', bestAuto);
+      renderList('memes-archive-grid', archiveAuto);
+    }
+
+    // Render other sections from SOCIAL data (if present)
+    if (window.SOCIAL) {
+      if (Array.isArray(window.SOCIAL.news)) {
+        renderList('news-grid', window.SOCIAL.news);
+      }
+      if (Array.isArray(window.SOCIAL.interactive)) {
+        renderList('engagement-grid', window.SOCIAL.interactive);
+      }
+      if (Array.isArray(window.SOCIAL.sports)) {
+        renderList('sports-grid', window.SOCIAL.sports);
+      }
+    }
+
+    // Lightbox carousel
+    (function initLightbox() {
+      const overlay = document.getElementById('lightbox');
+      const img = document.getElementById('lb-img');
+      const btnClose = document.getElementById('lb-close');
+      const btnPrev = document.getElementById('lb-prev');
+      const btnNext = document.getElementById('lb-next');
+
+      // Build ordered list from current DOM (grids already rendered)
+      const links = Array.from(document.querySelectorAll('#memes-best-grid a, #memes-archive-grid a, #news-grid a, #engagement-grid a, #sports-grid a'));
+      const hrefs = links.map(a => a.getAttribute('href'));
+      let idx = -1;
+
+      function openAt(i) {
+        if (i < 0 || i >= hrefs.length) return;
+        idx = i;
+        img.src = hrefs[idx];
+        overlay.classList.remove('hidden');
+      }
+      function close() {
+        overlay.classList.add('hidden');
+        img.src = '';
+      }
+      function prev() { if (hrefs.length) openAt((idx - 1 + hrefs.length) % hrefs.length); }
+      function next() { if (hrefs.length) openAt((idx + 1) % hrefs.length); }
+
+      links.forEach((a, i) => {
+        a.addEventListener('click', (e) => {
+          e.preventDefault();
+          openAt(i);
+        });
+      });
+      btnClose.addEventListener('click', close);
+      btnPrev.addEventListener('click', prev);
+      btnNext.addEventListener('click', next);
+      overlay.addEventListener('click', (e) => { if (e.target === overlay) close(); });
+      window.addEventListener('keydown', (e) => {
+        if (overlay.classList.contains('hidden')) return;
+        if (e.key === 'Escape') close();
+        if (e.key === 'ArrowLeft') prev();
+        if (e.key === 'ArrowRight') next();
+      });
+    })();
+  </script>
+</html>
